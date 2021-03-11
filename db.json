@@ -1,14 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "nodes": {
+    "code": 200,
+    "message": "",
+    "data": {
+      "nodes": [
+        {
+          "nodeHostName": "n148-135-223.byted.org",
+          "ip_addr": "10.148.135.223"
+        },
+        {
+          "nodeHostName": "n148-087-209.byted.org",
+          "ip_addr": "10.148.87.209"
+        }
+      ],
+      "code": 0
+    }
   }
 }
